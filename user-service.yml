@@ -5,6 +5,9 @@ spring:
     username: sa
     password: '{cipher}AYBWWfVb6Q/py0t4vSsUNPHPBDWWYqrSxDjTUvVHS5uQ0mzRV3A8HHDUJVvkrk/ItZ12TIichxEHONmLJYvEHT1zOSSrzS2cRQ5Yd2Y9woHbro2j+T2+jBacDaLf8gLpQWnRUwlDLyZ5iX7xnVRTyaAAn7CnCnDY8cFmsq6pL2NhighbzgR0IoW+FrhiBkrb5pgu3juogHkFT847eHdjP9Z8PpN6PnpLHVTnbbjJ5D5Ncxsh2TLEGmvOjOTAKhW2y0oDO70OeuEe1hzGwk0pfEDRG9p9R4zN2NgCwJ+JiZp/gvy2mVlrDtjdu4qPsmMUFd8yePfnsyNJAsga9FguzcfAxG/54i82rFi79rpVPwj5QESzjt24dp1DuV+2ZHG5RUZryt2ZbnTO6R0d3wdaEbUX5ziyI7EUe42V78nNhwWvNN7Nq+lWY00Pi3BtYjd2rZigd3t2rdaIVAenMWBIPuEc4KU5ZWxHbkMvpvqL7UTnR+34+uFbAd1M4XG9CwvktCftp2t1RVLsfqTLlVwIhBNuj5rkHa38NzOIg0VOOw2Glg=='
 
+gateway:
+  ip: 172.18.0.5
+
 order-service:
  # url: http://127.0.0.1:8000/order-service/%s/orders
  url: http://order-service/order-service/%s/orders
